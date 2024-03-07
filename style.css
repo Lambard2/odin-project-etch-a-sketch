@@ -3,17 +3,25 @@
     margin: 0;
     padding: 0;
 }
-
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 965px;
+    height: 965px;
+    background:red;
+    z-index: -1;
+}
 .container{
+    background: white;
     display: flex;
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
-    width: 963px;
-    height: 963px;
-    border: 1px solid black;
+    width: 960px;
+    height: 960px;
 }
 
-.container div:hover{
-    background:blue;
+.buttons{
+    margin-top: 2rem;;
 }
